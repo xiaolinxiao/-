@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_certificate_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zr.zhongjiao.home.basemanage.activity.CertificateDetailActivity">
+
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/view1"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView28"
+                style="@style/certificatetext"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/jcjg"
+                android:textColor="@color/black1" />
+
+            <TextView
+                android:id="@+id/textView29"
+                style="@style/certificatetext"
+                android:layout_alignTop="@+id/textView28"
+                android:layout_toEndOf="@+id/textView28"
+                android:text="中交三公局（北京）工程试验检测有限公司\n福州地铁二号线项目检测中心"
+                android:textColor="@color/black1" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@drawable/dotted_line_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/textView30"
+                style="@style/certificatetext"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/manname"
+                android:textColor="@color/black1" />
+
+            <TextView
+                android:id="@+id/textView31"
+                style="@style/certificatetext"
+                android:layout_alignTop="@+id/textView30"
+                android:layout_toEndOf="@+id/textView30"
+                android:text="李四(350321198805063867)"
+                android:textColor="@color/black1" />
+
+            <TextView
+                android:id="@+id/textView32"
+                style="@style/certificatetext"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/textView31"
+                android:layout_marginRight="15dp"
+                android:text="350321198805063867"
+                android:textColor="@color/black1"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textView33"
+                style="@style/certificatetext"
+                android:layout_alignTop="@+id/textView32"
+                android:layout_toStartOf="@+id/textView32"
+                android:text="@string/sfzh"
+                android:textColor="@color/black1"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@drawable/dotted_line_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView34"
+                    style="@style/certificatetext"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/zslx"
+                    android:textColor="@color/black1" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    style="@style/certificatetext"
+                    android:layout_alignBottom="@+id/textView34"
+                    android:layout_toEndOf="@+id/textView34"
+                    android:text="检测岗位证书"
+                    android:textColor="@color/black1" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView36"
+                    style="@style/certificatetext"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/zsmh"
+                    android:textColor="@color/black1" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    style="@style/certificatetext"
+                    android:layout_alignBottom="@+id/textView36"
+                    android:layout_toEndOf="@+id/textView36"
+                    android:text="建筑工程材料检测"
+                    android:textColor="@color/black1" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView38"
+                    style="@style/certificatetext"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/zsbh"
+                    android:textColor="@color/black1" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    style="@style/certificatetext"
+                    android:layout_alignBottom="@+id/textView38"
+                    android:layout_toEndOf="@+id/textView38"
+                    android:text="20110005118"
+                    android:textColor="@color/black1" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView40"
+                    style="@style/certificatetext"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/fzjg"
+                    android:textColor="@color/black1" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    style="@style/certificatetext"
+                    android:layout_alignBottom="@+id/textView40"
+                    android:layout_toEndOf="@+id/textView40"
+                    android:text="福建省建设厅"
+                    android:textColor="@color/black1" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView42"
+                    style="@style/certificatetext"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/starttime"
+                    android:textColor="@color/black1" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    style="@style/certificatetext"
+                    android:layout_alignBottom="@+id/textView42"
+                    android:layout_toEndOf="@+id/textView42"
+                    android:text="2014-7-21"
+                    android:textColor="@color/black1" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView44"
+                    style="@style/certificatetext"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/stoptime"
+                    android:textColor="@color/black1" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    style="@style/certificatetext"
+                    android:layout_alignBottom="@+id/textView44"
+                    android:layout_toEndOf="@+id/textView44"
+                    android:text="2029-7-21"
+                    android:textColor="@color/black1" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
