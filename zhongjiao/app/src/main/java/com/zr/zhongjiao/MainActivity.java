@@ -26,9 +26,9 @@ public class MainActivity extends BaseActivity implements TabHost.OnTabChangeLis
         mTabHost = (FragmentTabHost) findViewById(android.R.id.tabhost);
         supportFragmentManager = getSupportFragmentManager();
         mTabHost.setup(this, supportFragmentManager, R.id.realtabcontent);
-        setAddTab(tagArray[0], R.string.my, MyFragment.class, R.mipmap.ic_launcher);
-        setAddTab(tagArray[1], R.string.home, HomeFragment.class, R.mipmap.ic_launcher);
-        setAddTab(tagArray[2], R.string.message, MessageFragment.class, R.mipmap.ic_launcher);
+        setAddTab(tagArray[0], R.string.my, MyFragment.class, R.drawable.inducator_user_selector);
+        setAddTab(tagArray[1], R.string.home, HomeFragment.class, R.drawable.inducator_home_selector);
+        setAddTab(tagArray[2], R.string.message, MessageFragment.class, R.drawable.inducator_msg_selector);
         mTabHost.setCurrentTab(1);
         mTabHost.setOnTabChangedListener(this);
     }

@@ -15,8 +15,13 @@
         <item name="android:layout_margin">5dp</item>
     </style>
 
-    <style name="registerEditText" parent="wrap_content">
-        <item name="android:textSize">11sp</item>
+    <style name="match_parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="registerEditText" parent="match_parent">
+        <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/black</item>
     </style>
 
@@ -30,5 +35,14 @@
     <style name="certificatetext" parent="wrap_content">
         <item name="android:color">@color/black1</item>
         <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="hometext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black1</item>
+        <item name="android:textSize">13sp</item>
     </style>
 </resources>

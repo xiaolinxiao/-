@@ -39,7 +39,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="45dp">
+                android:layout_height="35dp">
 
                 <ImageView
                     android:id="@+id/imageView3"
@@ -49,17 +49,17 @@
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    android:background="@drawable/home_btn_1" />
 
                 <TextView
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
                     android:layout_toEndOf="@+id/imageView3"
                     android:layout_toRightOf="@+id/imageView3"
-                    android:text="@string/basemanage"
-                    android:textSize="18sp" />
+                    android:text="@string/basemanage" />
             </RelativeLayout>
 
             <View
@@ -69,7 +69,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -83,22 +84,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:background="@mipmap/ic_launcher" />
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/home_btn_1_1" />
 
                     <TextView
                         android:id="@+id/textView5"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="@string/ryzs"
-                        android:textColor="@color/black1" />
+                        style="@style/hometext"
+                        android:text="@string/ryzs" />
 
                 </LinearLayout>
 
                 <View
                     android:layout_width="0.5dp"
                     android:layout_height="match_parent"
-                    android:background="@color/gray" />
+                    android:background="@color/gary1" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -110,22 +109,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:background="@mipmap/ic_launcher" />
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/home_btn_1_2" />
 
                     <TextView
                         android:id="@+id/textView2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="@string/yqsb"
-                        android:textColor="@color/black1" />
+                        style="@style/hometext"
+                        android:text="@string/yqsb" />
 
                 </LinearLayout>
 
                 <View
                     android:layout_width="0.5dp"
                     android:layout_height="match_parent"
-                    android:background="@color/gray" />
+                    android:background="@color/gary1" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -137,23 +134,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-
-                        android:background="@mipmap/ic_launcher" />
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/home_btn_1_3" />
 
                     <TextView
                         android:id="@+id/textView3"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="@string/jdjl"
-                        android:textColor="@color/black1" />
+                        style="@style/hometext"
+                        android:text="@string/jdjl" />
 
                 </LinearLayout>
 
                 <View
                     android:layout_width="0.5dp"
                     android:layout_height="match_parent"
-                    android:background="@color/gray" />
+                    android:background="@color/gary1" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -165,16 +159,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-
-                        android:background="@mipmap/ic_launcher" />
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/home_btn_1_4" />
 
                     <TextView
                         android:id="@+id/textView4"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="@string/jdh"
-                        android:textColor="@color/black1" />
+                        style="@style/hometext"
+                        android:text="@string/jdh" />
 
                 </LinearLayout>
 
@@ -197,7 +188,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="45dp">
+                android:layout_height="35dp">
 
                 <ImageView
                     android:id="@+id/imageView4"
@@ -207,17 +198,17 @@
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    android:background="@drawable/home_btn_2" />
 
                 <TextView
                     android:id="@+id/textView6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
                     android:layout_toEndOf="@+id/imageView4"
                     android:layout_toRightOf="@+id/imageView4"
-                    android:text="@string/jcgl"
-                    android:textSize="18sp" />
+                    android:text="@string/jcgl" />
             </RelativeLayout>
 
             <View
@@ -227,7 +218,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -240,22 +232,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:background="@mipmap/ic_launcher" />
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/home_btn_2_1" />
 
                     <TextView
                         android:id="@+id/textView7"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="@string/jcht"
-                        android:textColor="@color/black1" />
+                        style="@style/hometext"
+                        android:text="@string/jcht" />
 
                 </LinearLayout>
 
                 <View
                     android:layout_width="0.5dp"
                     android:layout_height="match_parent"
-                    android:background="@color/gray" />
+                    android:background="@color/gary1" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -267,22 +257,19 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:background="@mipmap/ic_launcher" />
+                        android:background="@drawable/home_btn_2_2" />
 
                     <TextView
                         android:id="@+id/textView8"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="@string/wtgl"
-                        android:textColor="@color/black1" />
+                        style="@style/hometext"
+                        android:text="@string/wtgl" />
 
                 </LinearLayout>
 
                 <View
                     android:layout_width="0.5dp"
                     android:layout_height="match_parent"
-                    android:background="@color/gray" />
+                    android:background="@color/gary1" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -294,23 +281,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-
-                        android:background="@mipmap/ic_launcher" />
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/home_btn_2_3" />
 
                     <TextView
                         android:id="@+id/textView9"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="@string/ypxx"
-                        android:textColor="@color/black1" />
+                        style="@style/hometext"
+                        android:text="@string/ypxx" />
 
                 </LinearLayout>
 
                 <View
                     android:layout_width="0.5dp"
                     android:layout_height="match_parent"
-                    android:background="@color/gray" />
+                    android:background="@color/gary1" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -322,16 +306,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-
-                        android:background="@mipmap/ic_launcher" />
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/home_btn_2_4" />
 
                     <TextView
                         android:id="@+id/textView10"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="@string/jcbg"
-                        android:textColor="@color/black1" />
+                        style="@style/hometext"
+                        android:text="@string/jcbg" />
 
                 </LinearLayout>
 
@@ -354,7 +335,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="45dp">
+                android:layout_height="35dp">
 
                 <ImageView
                     android:id="@+id/imageView6"
@@ -364,17 +345,17 @@
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    android:background="@drawable/home_btn_3" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
                     android:layout_toEndOf="@+id/imageView6"
                     android:layout_toRightOf="@+id/imageView6"
-                    android:text="@string/tjcx"
-                    android:textSize="18sp" />
+                    android:text="@string/tjcx" />
             </RelativeLayout>
 
             <View
@@ -397,22 +378,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:background="@mipmap/ic_launcher" />
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/home_btn_3_1" />
 
                     <TextView
                         android:id="@+id/textView12"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="@string/bhgcx"
-                        android:textColor="@color/black1" />
+                        style="@style/hometext"
+                        android:text="@string/bhgcx" />
 
                 </LinearLayout>
 
                 <View
                     android:layout_width="0.5dp"
                     android:layout_height="match_parent"
-                    android:background="@color/gray" />
+                    android:background="@color/gary1" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -424,22 +403,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:background="@mipmap/ic_launcher" />
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/home_btn_3_2" />
 
                     <TextView
                         android:id="@+id/textView13"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="@string/jcqkhz"
-                        android:textColor="@color/black1" />
+                        style="@style/hometext"
+                        android:text="@string/jcqkhz" />
 
                 </LinearLayout>
 
                 <View
                     android:layout_width="0.5dp"
                     android:layout_height="match_parent"
-                    android:background="@color/gray" />
+                    android:background="@color/gary1" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -451,23 +428,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-
-                        android:background="@mipmap/ic_launcher" />
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/home_btn_3_3" />
 
                     <TextView
                         android:id="@+id/textView14"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="@string/jcxmhz"
-                        android:textColor="@color/black1" />
+                        style="@style/hometext"
+                        android:text="@string/jcxmhz" />
 
                 </LinearLayout>
 
                 <View
                     android:layout_width="0.5dp"
                     android:layout_height="match_parent"
-                    android:background="@color/gray" />
+                    android:background="@color/gary1" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -479,16 +453,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-
-                        android:background="@mipmap/ic_launcher" />
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/home_btn_3_4" />
 
                     <TextView
                         android:id="@+id/textView15"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="@string/gcjchz"
-                        android:textColor="@color/black1" />
+                        style="@style/hometext"
+                        android:text="@string/gcjchz" />
 
                 </LinearLayout>
 
