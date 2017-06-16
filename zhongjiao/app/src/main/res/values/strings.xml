@@ -27,7 +27,19 @@
     <string name="jcxmhz">检测项目汇总</string>
     <string name="gcjchz">工程检测汇总</string>
     <string name="qbjg">全部机构</string>
+    <string name="jcjg">检测机构：</string>
+    <string name="sfzh">身份证号：</string>
+    <string name="zslx">整数类型：</string>
+    <string name="zsmh">证书名称：</string>
+    <string name="zsbh">证书编号：</string>
+    <string name="fzjg">发证机关：</string>
 
     <!-- 常用的单词我还是会写的-->
     <string name="cancle">取消</string>
+    <string name="endtime">截止时间：</string>
+    <string name="lookdetail">查询详情</string>
+    <string name="manname">人员姓名：</string>
+    <string name="certifiname">证书名称：</string>
+    <string name="starttime">起始时间：</string>
+    <string name="stoptime">终止时间：</string>
 </resources>

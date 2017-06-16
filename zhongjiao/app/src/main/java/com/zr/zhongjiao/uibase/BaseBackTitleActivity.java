@@ -52,6 +52,6 @@ public class BaseBackTitleActivity extends BaseActivity {
         View content = getLayoutInflater().inflate(layoutId, null);
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
         ll_content.addView(content, layoutParams);
-        text_title.setText(title);
+        text_title.setText("" + title);
     }
 }

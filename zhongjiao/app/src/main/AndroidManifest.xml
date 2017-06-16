@@ -18,7 +18,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".uibase.BaseActivity" />
-        <activity android:name=".home.basemanage.activity.CertificateActivity"></activity>
+        <activity android:name=".home.basemanage.activity.CertificateActivity" />
+        <activity android:name=".home.basemanage.activity.CertificateDetailActivity" />
+        <activity
+            android:name=".user.LoginActivity"
+            android:windowSoftInputMode="adjustPan"></activity>
     </application>
 
 </manifest>

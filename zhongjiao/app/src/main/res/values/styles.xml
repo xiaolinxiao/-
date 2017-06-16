@@ -26,4 +26,9 @@
         <item name="android:layout_alignParentLeft">true</item>
         <item name="android:layout_alignParentStart">true</item>
     </style>
+
+    <style name="certificatetext" parent="wrap_content">
+        <item name="android:color">@color/black1</item>
+        <item name="android:textSize">15sp</item>
+    </style>
 </resources>
