@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">zhongjiao</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my">我的</string>
+    <string name="home">首页</string>
+    <string name="message">消息</string>
+    <string name="minecenter">个人中心</string>
+    <string name="remenber">记住用户名和密码</string>
+    <string name="login">登录</string>
+    <string name="basemanage">基础管理</string>
+
+    <!--太麻烦了 后面的直接拼音了-->
+    <string name="ryzs">人员证书</string>
+    <string name="yqsb">仪器设备</string>
+    <string name="jdjl">检定记录</string>
+    <string name="jdh">机顶盒</string>
+    <string name="jcgl">检测管理</string>
+    <string name="jcht">检测合同</string>
+    <string name="wtgl">委托管理</string>
+    <string name="ypxx">样品信息</string>
+    <string name="jcbg">检测报告</string>
+    <string name="tjcx">统计查询</string>
+    <string name="bhgcx">不合格查询</string>
+    <string name="jcqkhz">检测情况汇总</string>
+    <string name="jcxmhz">检测项目汇总</string>
+    <string name="gcjchz">工程检测汇总</string>
+    <string name="qbjg">全部机构</string>
+
+    <!-- 常用的单词我还是会写的-->
+    <string name="cancle">取消</string>
+</resources>
