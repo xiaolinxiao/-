@@ -16,6 +16,7 @@ import com.zr.zhongjiao.home.basemanage.activity.DeviceActivity;
 import com.zr.zhongjiao.home.basemanage.activity.RecordsActivity;
 import com.zr.zhongjiao.home.basemanage.activity.TopboxActivity;
 import com.zr.zhongjiao.home.detectionmanage.ContractActivity;
+import com.zr.zhongjiao.home.detectionmanage.EntrustActivity;
 import com.zr.zhongjiao.uibase.BaseFragment;
 
 /**
@@ -84,6 +85,9 @@ public class HomeFragment extends BaseFragment implements View.OnClickListener {
                 break;
             case R.id.home_ll_jcht:
                 startActivity(new Intent(getActivity(), ContractActivity.class));
+                break;
+            case R.id.home_ll_wtgl:
+                startActivity(new Intent(getActivity(), EntrustActivity.class));
                 break;
 
 

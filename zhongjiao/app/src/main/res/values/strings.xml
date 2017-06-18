@@ -81,6 +81,11 @@
     <string name="aqjdz">安全监督站：</string>
     <string name="htqdrq">合同签订日期：</string>
     <string name="htscsj">合同上传时间：</string>
+    <string name="jcxm">检测项目：</string>
+    <string name="wtbh">委托编号：</string>
+    <string name="wtxysxq">委托协议书详情</string>
+    <string name="jgbw">结构部位：</string>
+    <string name="wtrq">委托日期：</string>
 
 
 </resources>

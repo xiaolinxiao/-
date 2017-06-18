@@ -40,7 +40,11 @@
         <activity
             android:name=".home.detectionmanage.ContractActivity"
             android:windowSoftInputMode="adjustPan|stateHidden" />
-        <activity android:name=".home.detectionmanage.ContractDetailActivity"></activity>
+        <activity android:name=".home.detectionmanage.ContractDetailActivity" />
+        <activity
+            android:name=".home.detectionmanage.EntrustActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name=".home.detectionmanage.EntrustDetailActivity"></activity>
     </application>
 
 </manifest>

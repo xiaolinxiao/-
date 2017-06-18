@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_entrust_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zr.zhongjiao.home.detectionmanage.EntrustDetailActivity">
+
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/view1"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView28"
+                style="@style/certificatetext"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/jcjg"
+                android:textColor="@color/black1" />
+
+            <TextView
+                android:id="@+id/textView29"
+                style="@style/certificatetext"
+                android:layout_alignTop="@+id/textView28"
+                android:layout_toEndOf="@+id/textView28"
+                android:text="中交三公局（北京）工程试验检测有限公司\n福州地铁二号线项目检测中心"
+                android:textColor="@color/black1" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@drawable/dotted_line_gray"
+            android:layerType="software" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/textView30"
+                style="@style/certificatetext"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/htbh"
+                android:textColor="@color/black1" />
+
+            <TextView
+                android:id="@+id/textView31"
+                style="@style/certificatetext"
+                android:layout_alignTop="@+id/textView30"
+                android:layout_toEndOf="@+id/textView30"
+                android:text="00107"
+                android:textColor="@color/black1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/textView60"
+                style="@style/certificatetext"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="@string/wtbh"
+                android:textColor="@color/black1" />
+
+            <TextView
+                android:id="@+id/textView61"
+                style="@style/certificatetext"
+                android:layout_alignBottom="@+id/textView60"
+                android:layout_toEndOf="@+id/textView60"
+                android:text="17003839"
+                android:textColor="@color/black1" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@drawable/dotted_line_gray"
+            android:layerType="software" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/textView34"
+                    style="@style/certificatetext"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/gcmc"
+                    android:textColor="@color/black1" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    style="@style/certificatetext"
+                    android:layout_toEndOf="@+id/textView34"
+                    android:text="福州市轨道交通2号线工程BT项目董屿站"
+                    android:textColor="@color/black1" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView36"
+                    style="@style/certificatetext"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/jgbw"
+                    android:textColor="@color/black1" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    style="@style/certificatetext"
+                    android:layout_alignBottom="@+id/textView36"
+                    android:layout_toEndOf="@+id/textView36"
+                    android:text=""
+                    android:textColor="@color/black1" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/textView38"
+                    style="@style/certificatetext"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/jcxm"
+                    android:textColor="@color/black1" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    style="@style/certificatetext"
+                    android:layout_toEndOf="@+id/textView38"
+                    android:text="建筑工程材料检测仪钢材（含焊接与机械）/钢筋原材"
+                    android:textColor="@color/black1" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView42"
+                    style="@style/certificatetext"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/wtdw"
+                    android:textColor="@color/black1" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    style="@style/certificatetext"
+                    android:layout_toEndOf="@+id/textView42"
+                    android:text="福州市轨道交通2号线工程项目BT项目第三标段"
+                    android:textColor="@color/black1" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView44"
+                    style="@style/certificatetext"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/wtrq"
+                    android:textColor="@color/black1" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    style="@style/certificatetext"
+                    android:layout_alignBottom="@+id/textView44"
+                    android:layout_toEndOf="@+id/textView44"
+                    android:text="2017-7-21"
+                    android:textColor="@color/black1" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
