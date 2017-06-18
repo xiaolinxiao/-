@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_certificate_detail"
+    android:id="@+id/activity_device_detail"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.zr.zhongjiao.home.basemanage.activity.CertificateDetailActivity">
+    tools:context="com.zr.zhongjiao.home.basemanage.activity.DeviceDetailActivity">
 
     <TextView
         android:id="@+id/view1"
@@ -16,12 +16,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/view1"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/view1"
         android:background="@color/white"
-        android:orientation="vertical"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp">
+        android:orientation="vertical">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -61,7 +59,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:text="@string/manname"
+                android:text="@string/sbmc"
                 android:textColor="@color/black1" />
 
             <TextView
@@ -69,7 +67,7 @@
                 style="@style/certificatetext"
                 android:layout_alignTop="@+id/textView30"
                 android:layout_toEndOf="@+id/textView30"
-                android:text="李四(350321198805063867)"
+                android:text="外能材料试验机（HJS-002）"
                 android:textColor="@color/black1" />
 
             <TextView
@@ -98,6 +96,7 @@
             android:background="@drawable/dotted_line_gray"
             android:layerType="software" />
 
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -114,7 +113,7 @@
                     style="@style/certificatetext"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:text="@string/zslx"
+                    android:text="@string/sblx"
                     android:textColor="@color/black1" />
 
                 <TextView
@@ -122,7 +121,7 @@
                     style="@style/certificatetext"
                     android:layout_alignBottom="@+id/textView34"
                     android:layout_toEndOf="@+id/textView34"
-                    android:text="检测岗位证书"
+                    android:text="试验室"
                     android:textColor="@color/black1" />
             </RelativeLayout>
 
@@ -136,7 +135,7 @@
                     style="@style/certificatetext"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:text="@string/zsmh"
+                    android:text="@string/xhgg"
                     android:textColor="@color/black1" />
 
                 <TextView
@@ -144,7 +143,7 @@
                     style="@style/certificatetext"
                     android:layout_alignBottom="@+id/textView36"
                     android:layout_toEndOf="@+id/textView36"
-                    android:text="建筑工程材料检测"
+                    android:text="WE-12B"
                     android:textColor="@color/black1" />
             </RelativeLayout>
 
@@ -158,7 +157,7 @@
                     style="@style/certificatetext"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:text="@string/zsbh"
+                    android:text="@string/sccj"
                     android:textColor="@color/black1" />
 
                 <TextView
@@ -166,7 +165,7 @@
                     style="@style/certificatetext"
                     android:layout_alignBottom="@+id/textView38"
                     android:layout_toEndOf="@+id/textView38"
-                    android:text="20110005118"
+                    android:text="长春试验室"
                     android:textColor="@color/black1" />
             </RelativeLayout>
 
@@ -180,7 +179,7 @@
                     style="@style/certificatetext"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:text="@string/fzjg"
+                    android:text="@string/ccbh"
                     android:textColor="@color/black1" />
 
                 <TextView
@@ -188,7 +187,7 @@
                     style="@style/certificatetext"
                     android:layout_alignBottom="@+id/textView40"
                     android:layout_toEndOf="@+id/textView40"
-                    android:text="福建省建设厅"
+                    android:text=""
                     android:textColor="@color/black1" />
             </RelativeLayout>
 
@@ -202,7 +201,7 @@
                     style="@style/certificatetext"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:text="@string/starttime"
+                    android:text="@string/syqk"
                     android:textColor="@color/black1" />
 
                 <TextView
@@ -210,7 +209,7 @@
                     style="@style/certificatetext"
                     android:layout_alignBottom="@+id/textView42"
                     android:layout_toEndOf="@+id/textView42"
-                    android:text="2014-7-21"
+                    android:text="在用"
                     android:textColor="@color/black1" />
             </RelativeLayout>
 
@@ -224,7 +223,7 @@
                     style="@style/certificatetext"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:text="@string/stoptime"
+                    android:text="@string/llsj"
                     android:textColor="@color/black1" />
 
                 <TextView
@@ -232,11 +231,119 @@
                     style="@style/certificatetext"
                     android:layout_alignBottom="@+id/textView44"
                     android:layout_toEndOf="@+id/textView44"
-                    android:text="2029-7-21"
+                    android:text="2013-01-15 16:49:50"
                     android:textColor="@color/black1" />
             </RelativeLayout>
         </LinearLayout>
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@drawable/dotted_line_gray"
+            android:layerType="software" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/xghj" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView46"
+                    style="@style/certificatetext"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/xgx"
+                    android:textColor="@color/black1" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    style="@style/certificatetext"
+                    android:layout_alignBottom="@+id/textView46"
+                    android:layout_toEndOf="@+id/textView46"
+                    android:text=""
+                    android:textColor="@color/black1" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView48"
+                    style="@style/certificatetext"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/xgqdz"
+                    android:textColor="@color/black1" />
+
+                <TextView
+                    android:id="@+id/textView49"
+                    style="@style/certificatetext"
+                    android:layout_alignBottom="@+id/textView48"
+                    android:layout_toEndOf="@+id/textView48"
+                    android:text=""
+                    android:textColor="@color/black1" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView50"
+                    style="@style/certificatetext"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/xghdz"
+                    android:textColor="@color/black1" />
+
+                <TextView
+                    android:id="@+id/textView51"
+                    style="@style/certificatetext"
+                    android:layout_alignBottom="@+id/textView50"
+                    android:layout_toEndOf="@+id/textView50"
+                    android:text=""
+                    android:textColor="@color/black1" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView52"
+                    style="@style/certificatetext"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/xgyy"
+                    android:textColor="@color/black1" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    style="@style/certificatetext"
+                    android:layout_alignBottom="@+id/textView52"
+                    android:layout_toEndOf="@+id/textView52"
+                    android:text=""
+                    android:textColor="@color/black1" />
+            </RelativeLayout>
+        </LinearLayout>
 
     </LinearLayout>
+
+
 </RelativeLayout>

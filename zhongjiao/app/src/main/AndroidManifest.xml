@@ -18,11 +18,29 @@
             </intent-filter>
         </activity>
         <activity android:name=".uibase.BaseActivity" />
-        <activity android:name=".home.basemanage.activity.CertificateActivity" />
+        <activity
+            android:name=".home.basemanage.activity.CertificateActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity android:name=".home.basemanage.activity.CertificateDetailActivity" />
         <activity
             android:name=".user.LoginActivity"
-            android:windowSoftInputMode="adjustPan"></activity>
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".home.basemanage.activity.DeviceActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".home.basemanage.activity.RecordsActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".home.basemanage.activity.TopboxActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name=".home.basemanage.activity.DeviceDetailActivity" />
+        <activity android:name=".home.basemanage.activity.RecordsDetailActivity" />
+        <activity android:name=".home.basemanage.activity.TopboxDetailActivity" />
+        <activity
+            android:name=".home.detectionmanage.ContractActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name=".home.detectionmanage.ContractDetailActivity"></activity>
     </application>
 
 </manifest>

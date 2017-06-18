@@ -29,10 +29,30 @@
     <string name="qbjg">全部机构</string>
     <string name="jcjg">检测机构：</string>
     <string name="sfzh">身份证号：</string>
-    <string name="zslx">整数类型：</string>
+    <string name="zslx">证书类型：</string>
     <string name="zsmh">证书名称：</string>
     <string name="zsbh">证书编号：</string>
     <string name="fzjg">发证机关：</string>
+    <string name="sbmc">设备名称：</string>
+    <string name="sbbh">设备编号：</string>
+    <string name="syqk">使用情况：</string>
+    <string name="yqsbxq">仪器设备详情</string>
+    <string name="sblx">设备类型：</string>
+    <string name="xhgg">型号规格：</string>
+    <string name="sccj">生产厂家：</string>
+    <string name="ccbh">出厂编号：</string>
+    <string name="llsj">录入时间：</string>
+    <string name="xghj">【修改痕迹】</string>
+    <string name="xgx">修改项：</string>
+    <string name="xgqdz">修改前的值：</string>
+    <string name="xghdz">修改后的值：</string>
+    <string name="xgyy">修改原因：</string>
+    <string name="jdsj">检定时间：</string>
+    <string name="dqsj">到期时间：</string>
+    <string name="sbjdxq">设备检定详情</string>
+    <string name="jdxz">坚定性质：</string>
+    <string name="jddw">检定单位：</string>
+    <string name="jdhbh">机顶盒编号：</string>
 
     <!-- 常用的单词我还是会写的-->
     <string name="cancle">取消</string>
@@ -42,4 +62,25 @@
     <string name="certifiname">证书名称：</string>
     <string name="starttime">起始时间：</string>
     <string name="stoptime">终止时间：</string>
+    <string name="ststus">状态：</string>
+    <string name="jdhxq">机顶盒详情</string>
+    <string name="ip">机顶盒IP地址：</string>
+    <string name="fwqdkh">连接的服务器与端口号：</string>
+    <string name="jdhlx">机顶盒类型：</string>
+    <string name="wscts">未上传天数：</string>
+    <string name="jdhrjzt">机顶盒软件状态：</string>
+    <string name="jdhjywljzt">机顶盒与局域网连接状态：</string>
+    <string name="dksj">断开时间：</string>
+    <string name="htbh">合同编号：</string>
+    <string name="htlb">合同类别：</string>
+    <string name="jchtxxxq">检测合同详情</string>
+    <string name="gcmc">工程名称：</string>
+    <string name="gcdm">工程代码：</string>
+    <string name="wtdw">委托单位：</string>
+    <string name="zljdz">质量监督站：</string>
+    <string name="aqjdz">安全监督站：</string>
+    <string name="htqdrq">合同签订日期：</string>
+    <string name="htscsj">合同上传时间：</string>
+
+
 </resources>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_certificate_detail"
+    android:id="@+id/activity_records_detail"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.zr.zhongjiao.home.basemanage.activity.CertificateDetailActivity">
+    tools:context="com.zr.zhongjiao.home.basemanage.activity.RecordsDetailActivity">
 
     <TextView
         android:id="@+id/view1"
@@ -61,7 +61,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:text="@string/manname"
+                android:text="@string/sbmc"
                 android:textColor="@color/black1" />
 
             <TextView
@@ -69,7 +69,7 @@
                 style="@style/certificatetext"
                 android:layout_alignTop="@+id/textView30"
                 android:layout_toEndOf="@+id/textView30"
-                android:text="李四(350321198805063867)"
+                android:text="静载仪(YZ-248-49)"
                 android:textColor="@color/black1" />
 
             <TextView
@@ -114,7 +114,7 @@
                     style="@style/certificatetext"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:text="@string/zslx"
+                    android:text="@string/zsbh"
                     android:textColor="@color/black1" />
 
                 <TextView
@@ -122,7 +122,7 @@
                     style="@style/certificatetext"
                     android:layout_alignBottom="@+id/textView34"
                     android:layout_toEndOf="@+id/textView34"
-                    android:text="检测岗位证书"
+                    android:text="（MLY）B1/17-2015"
                     android:textColor="@color/black1" />
             </RelativeLayout>
 
@@ -136,7 +136,7 @@
                     style="@style/certificatetext"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:text="@string/zsmh"
+                    android:text="@string/jdxz"
                     android:textColor="@color/black1" />
 
                 <TextView
@@ -144,7 +144,7 @@
                     style="@style/certificatetext"
                     android:layout_alignBottom="@+id/textView36"
                     android:layout_toEndOf="@+id/textView36"
-                    android:text="建筑工程材料检测"
+                    android:text="检定"
                     android:textColor="@color/black1" />
             </RelativeLayout>
 
@@ -158,7 +158,7 @@
                     style="@style/certificatetext"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:text="@string/zsbh"
+                    android:text="@string/jddw"
                     android:textColor="@color/black1" />
 
                 <TextView
@@ -166,29 +166,7 @@
                     style="@style/certificatetext"
                     android:layout_alignBottom="@+id/textView38"
                     android:layout_toEndOf="@+id/textView38"
-                    android:text="20110005118"
-                    android:textColor="@color/black1" />
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:layout_marginLeft="10dp">
-
-                <TextView
-                    android:id="@+id/textView40"
-                    style="@style/certificatetext"
-                    android:layout_alignParentStart="true"
-                    android:layout_centerVertical="true"
-                    android:text="@string/fzjg"
-                    android:textColor="@color/black1" />
-
-                <TextView
-                    android:id="@+id/textView41"
-                    style="@style/certificatetext"
-                    android:layout_alignBottom="@+id/textView40"
-                    android:layout_toEndOf="@+id/textView40"
-                    android:text="福建省建设厅"
+                    android:text="福建省计量科学研究院"
                     android:textColor="@color/black1" />
             </RelativeLayout>
 
