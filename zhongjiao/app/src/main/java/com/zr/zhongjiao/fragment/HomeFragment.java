@@ -17,6 +17,8 @@ import com.zr.zhongjiao.home.basemanage.activity.RecordsActivity;
 import com.zr.zhongjiao.home.basemanage.activity.TopboxActivity;
 import com.zr.zhongjiao.home.detectionmanage.ContractActivity;
 import com.zr.zhongjiao.home.detectionmanage.EntrustActivity;
+import com.zr.zhongjiao.home.detectionmanage.ReportActivity;
+import com.zr.zhongjiao.home.detectionmanage.SampleActivity;
 import com.zr.zhongjiao.uibase.BaseFragment;
 
 /**
@@ -66,6 +68,8 @@ public class HomeFragment extends BaseFragment implements View.OnClickListener {
         ll_wtgl.setOnClickListener(this);
         ll_ypxx.setOnClickListener(this);
         ll_jcbg.setOnClickListener(this);
+        /*--统计管理----*/
+
     }
 
     @Override
@@ -88,6 +92,12 @@ public class HomeFragment extends BaseFragment implements View.OnClickListener {
                 break;
             case R.id.home_ll_wtgl:
                 startActivity(new Intent(getActivity(), EntrustActivity.class));
+                break;
+            case R.id.home_ll_ypxx:
+                startActivity(new Intent(getActivity(), SampleActivity.class));
+                break;
+            case R.id.home_ll_jcbg:
+                startActivity(new Intent(getActivity(), ReportActivity.class));
                 break;
 
 

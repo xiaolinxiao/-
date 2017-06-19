@@ -44,7 +44,12 @@
         <activity
             android:name=".home.detectionmanage.EntrustActivity"
             android:windowSoftInputMode="adjustPan|stateHidden" />
-        <activity android:name=".home.detectionmanage.EntrustDetailActivity"></activity>
+        <activity android:name=".home.detectionmanage.EntrustDetailActivity" />
+        <activity
+            android:name=".home.detectionmanage.SampleActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name=".home.detectionmanage.ReportActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"></activity>
     </application>
 
 </manifest>
